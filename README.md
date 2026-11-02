@@ -1,7 +1,7 @@
 # Credit Card Fraud: Exploratory Data Analysis with AI
 
 ## What this notebook analyzes
-`credit_card_fraud_eda.ipynb` explores a Kaggle credit card transaction dataset (999 transactions, 8 columns: distance from home, distance from last transaction, ratio to median purchase price, repeat retailer, used chip, used PIN, online order, fraud). The goal is to see which features of a transaction line up with it being fraudulent. The notebook covers loading the data, checking its structure, dropping rows with missing values (999 down to 977), single-variable plots, fraud vs. non-fraud comparisons for each yes/no variable, and two scatter plots. It stops before any machine learning.
+credit_card_fraud_eda.ipynb explores a Kaggle credit card transaction dataset (999 transactions, 8 columns: distance from home, distance from last transaction, ratio to median purchase price, repeat retailer, used chip, used PIN, online order, fraud). The goal is to see which features of a transaction line up with it being fraudulent. The notebook covers loading the data, checking its structure, dropping rows with missing values (999 down to 977), single-variable plots, fraud vs. non-fraud comparisons for each yes/no variable, and two scatter plots. It stops before any machine learning.
 
 ## How I used AI
 I used **Claude Sonnet 5.5** (Anthropic) through claude.ai. I wrote prompts as questions about the data (for example, "How many missing values are there per column?" and "Show me how fraud rates differ by whether a PIN was used"), and Claude generated the pandas, seaborn and matplotlib code. The key prompts are in markdown cells before each code cell, and the notebook is pre-run so all output is visible.
